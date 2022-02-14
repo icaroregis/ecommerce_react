@@ -1,0 +1,12 @@
+.ContainerCarousel {
+  width: 14rem;
+  height: 19rem;
+  background-color: var(--background_light);
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0.8px 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.2) !important;
+  border: 2px solid var(--borderColor) !important;
+}

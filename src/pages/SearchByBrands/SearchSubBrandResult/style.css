@@ -1,0 +1,70 @@
+.BrandSearchSessionResult {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 18rem;
+  background-color: var(--grey9);
+  padding: 0 5rem;
+}
+
+.UnbeatableOffers {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CarrosselUnbeatableOffers {
+  align-self: stretch;
+  margin: 4rem 5rem;
+}
+
+.FooterDivFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey8);
+  height: 14rem;
+}
+
+.DescriptionForCard {
+  margin-left: 2rem;
+}
+
+.DescriptionCardH1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.DescriptionCardP {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.DescrptionSpan {
+  font-weight: 700;
+}
+
+.AiOutlineArrowLeft {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
+  color: var(--black);
+}
+
+.ParagraphSubBrandResult {
+  color: var(--black);
+  font-size: 1.2rem;
+}
+
+.LinkBrandResult {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+  margin: 3rem 0;
+  text-decoration: none;
+}

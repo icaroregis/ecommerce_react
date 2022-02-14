@@ -1,0 +1,33 @@
+.BodyDataSeven {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.DivRemove {
+  display: flex;
+  flex: 1;
+  background-color: #49958b;
+  padding: 0.4rem 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.DivDisplay {
+  flex: 2;
+  padding: 0.4rem 0;
+}
+
+.DivAddCar {
+  text-align: left;
+  font-weight: 600;
+  color: var(--background_light);
+  margin-right: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.ButtonDefault {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 35px;
+  border: 0;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.IdAndLogo {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.9rem;
+}
+
+.LogoDocol {
+  width: 85px;
+  height: 20px;
+}
+
+.DivFaucet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PriceAndDescription {
+  display: block;
+  height: 7rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: var(--grey9);
+  padding-top: 1rem;
+}
+
+.DescriptionProduct {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.PriceProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ImagesCarrossel {
+  width: 57%;
+}
+
+.LogoCiserr {
+  width: 4rem;
+  height: 2rem;
+}

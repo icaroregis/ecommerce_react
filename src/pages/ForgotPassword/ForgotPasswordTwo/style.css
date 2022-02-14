@@ -1,0 +1,71 @@
+.ContainerForgotPasswordAndLogin {
+  max-width: 23rem;
+  width: 100%;
+  height: 35rem;
+  background-color: var(--background_screens);
+  color: var(--background_light);
+  border-radius: 15px;
+}
+
+.DivForgotPasswordAndLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px 0;
+}
+
+.HeaderForgotPasswordAndLogin {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.ButtonForgotPasswordAndLogin {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.DivEmail {
+  align-self: stretch;
+  display: block;
+  text-align: center;
+}
+
+.textEmail {
+  margin-bottom: 10px;
+  color: var(--background_light);
+}
+
+.textEmailTwo {
+  color: var(--background_light);
+  font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  .ContainerForgotPasswordAndLogin {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .ContainerForgotPasswordAndLogin {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+}

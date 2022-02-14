@@ -1,0 +1,66 @@
+.SellingCompaniesCircle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75rem;
+  padding-left: 1.8rem;
+}
+
+.DivSellingCompaniesCircle {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--grey9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+.DivSellingCompaniesCircle:hover {
+  transform: scale(1.1);
+}
+
+.LogoSellingCompaniesCircle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.DescriptionCicleSellingCompanies {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.ContainerCardCircle {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .DivMasterSellingCompanies {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .DivMasterSellingCompanies {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 614px) {
+  .DivMasterSellingCompanies {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .DivMasterSellingCompanies {
+    width: 18rem;
+  }
+}

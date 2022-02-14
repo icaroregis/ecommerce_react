@@ -1,0 +1,91 @@
+.LabelSearchInput {
+  font-size: 1.2rem;
+  font-weight: 800;
+  position: relative;
+  cursor: pointer;
+}
+
+.InputSearchBrand {
+  margin-top: 3rem;
+  width: 50rem;
+  height: 3rem;
+  border-radius: 1.8rem;
+  border: none;
+  text-align: center;
+}
+
+.InputSearchBrand::placeholder {
+  text-align: center;
+}
+
+.BorderSearchBrand {
+  width: 45rem;
+  border-bottom: 1px solid var(--grey9);
+  position: relative;
+  top: -8px;
+  bottom: 1rem;
+  height: 0.5px;
+}
+
+.ContainerSearchByProduct {
+  background-color: var(--grey9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+@media (max-width: 850px) {
+  .InputSearchBrand {
+    width: 40rem;
+  }
+
+  .BorderSearchBrand {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .InputSearchBrand {
+    width: 30rem;
+  }
+
+  .BorderSearchBrand {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .InputSearchBrand {
+    width: 25rem;
+  }
+
+  .BorderSearchBrand {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .InputSearchBrand {
+    width: 22rem;
+  }
+
+  .BorderSearchBrand {
+    width: 20.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .InputSearchBrand {
+    width: 20rem;
+  }
+
+  .BorderSearchBrand {
+    width: 18rem;
+  }
+
+  .InputSearchBrand::placeholder {
+    font-size: 0.7rem;
+  }
+}

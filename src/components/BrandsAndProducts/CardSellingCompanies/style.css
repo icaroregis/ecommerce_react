@@ -1,0 +1,60 @@
+.DivMasterSellingCompanies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 61rem;
+  padding-left: 1.8rem;
+}
+
+.DivSellingCompanies {
+  width: 13rem;
+  height: 13rem;
+  background-color: var(--background_light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid var(--borderColor);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.DivSellingCompanies:hover {
+  transform: scale(1.1);
+}
+
+.LogoSellingCompanies {
+  width: 7rem;
+  height: 4rem;
+}
+
+.teste {
+  border: 1px solid black;
+}
+
+@media (max-width: 1100px) {
+  .DivMasterSellingCompanies {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .DivMasterSellingCompanies {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 614px) {
+  .DivMasterSellingCompanies {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .DivMasterSellingCompanies {
+    width: 18rem;
+  }
+}

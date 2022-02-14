@@ -1,0 +1,96 @@
+.BoxModalCar {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 1rem;
+  background-color: var(--grey7) !important;
+}
+
+.DivIconCloseModal {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.IconBsxlgg {
+  background-color: var(--grey7);
+}
+
+.DivCheckCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.CheckCircle {
+  width: 7rem;
+  height: 7rem;
+}
+
+.TitleCarAdd {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.DivTitleCarAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.TitleCarAdd {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.DivMasterGoCar {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DivGoCar {
+  cursor: pointer;
+  color: var(--grey3);
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.ArrowBackCar {
+  margin-top: 0.1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--grey3);
+  cursor: pointer;
+}
+
+.DivButtonKeepBuying {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonKeepBuying {
+  background-color: var(--grey8);
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  color: var(--background_light);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.DivLogoKeepBuying {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoKeepBuying {
+  width: 13rem;
+  height: 5rem;
+}

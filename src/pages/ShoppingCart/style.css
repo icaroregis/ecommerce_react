@@ -1,0 +1,14 @@
+.containerShoppingCart {
+  background-color: var(--background_light);
+  /*esse aqui*/
+}
+
+.CartCards {
+  margin: 0 6rem;
+  /*esse aqui*/
+}
+
+.SectionFooter {
+  margin-top: 6rem;
+  /* esse aqui*/
+}

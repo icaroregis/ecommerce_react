@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f3904de.chunk.css",
+    "main.js": "/static/js/main.e45da186.chunk.js",
+    "main.js.map": "/static/js/main.e45da186.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f826095.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f826095.js.map",
+    "static/css/2.25942df6.chunk.css": "/static/css/2.25942df6.chunk.css",
+    "static/js/2.2709edc2.chunk.js": "/static/js/2.2709edc2.chunk.js",
+    "static/js/2.2709edc2.chunk.js.map": "/static/js/2.2709edc2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.25942df6.chunk.css.map": "/static/css/2.25942df6.chunk.css.map",
+    "static/css/main.6f3904de.chunk.css.map": "/static/css/main.6f3904de.chunk.css.map",
+    "static/js/2.2709edc2.chunk.js.LICENSE.txt": "/static/js/2.2709edc2.chunk.js.LICENSE.txt",
+    "static/media/Ativo-5.1.a924d09e.png": "/static/media/Ativo-5.1.a924d09e.png",
+    "static/media/Ativo-6.1.833b0143.png": "/static/media/Ativo-6.1.833b0143.png",
+    "static/media/Ball.cb0f6858.png": "/static/media/Ball.cb0f6858.png",
+    "static/media/Ciser.8705d4a7.png": "/static/media/Ciser.8705d4a7.png",
+    "static/media/Docol.6cf1a8fd.png": "/static/media/Docol.6cf1a8fd.png",
+    "static/media/FobbiLogoBlack.5c390434.png": "/static/media/FobbiLogoBlack.5c390434.png",
+    "static/media/FobbiWhite.789eaa1b.png": "/static/media/FobbiWhite.789eaa1b.png",
+    "static/media/Instagran.0b1e0468.png": "/static/media/Instagran.0b1e0468.png",
+    "static/media/LogoForgotPasswordFour.3ecc8dc7.png": "/static/media/LogoForgotPasswordFour.3ecc8dc7.png",
+    "static/media/LogoSucessRegister.c6faaecc.png": "/static/media/LogoSucessRegister.c6faaecc.png",
+    "static/media/Screw.e9782aaa.png": "/static/media/Screw.e9782aaa.png",
+    "static/media/Whatsapp.9fa93efd.png": "/static/media/Whatsapp.9fa93efd.png",
+    "static/media/check-circle.bdf4a4ca.png": "/static/media/check-circle.bdf4a4ca.png",
+    "static/media/screwTwo.9003471f.png": "/static/media/screwTwo.9003471f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f826095.js",
+    "static/css/2.25942df6.chunk.css",
+    "static/js/2.2709edc2.chunk.js",
+    "static/css/main.6f3904de.chunk.css",
+    "static/js/main.e45da186.chunk.js"
+  ]
+}

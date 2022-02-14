@@ -1,0 +1,25 @@
+.ProSideBar {
+  background-color: var(--background_light);
+}
+
+.ManuItemSideBar {
+  background-color: var(--background_screens);
+  margin-bottom: 0.6rem;
+  padding: 0.4rem;
+  border-bottom-right-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  color: var(--background_light);
+  text-align: center;
+}
+
+.ManuItemSideBar.activeClass {
+  background-color: #008f83;
+}
+
+.ContentSidebar {
+  display: flex;
+}
+
+.DivCards {
+  padding-top: 0.5rem;
+}

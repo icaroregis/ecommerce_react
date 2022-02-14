@@ -1,0 +1,58 @@
+.ContainerSucessRegister {
+  max-width: 23rem;
+  width: 100%;
+  height: 28rem;
+  background-color: var(--grey7);
+  color: var(--background_screens);
+  border-radius: 15px;
+}
+
+.ContainerLogoSucessRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px 0;
+}
+
+.HeaderSucessRegister {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.DivPragrafo {
+  text-align: center;
+}
+
+.Paragrafo {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.DivButtonSucessRegister {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 411px) {
+  .ContainerSucessRegister {
+    border-radius: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .ContainerSucessRegister {
+    border-radius: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+}

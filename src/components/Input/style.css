@@ -1,0 +1,15 @@
+.Input {
+  width: 18rem;
+  height: 35px;
+  display: block;
+  border-radius: 6px;
+  padding-left: 10px;
+  border: none;
+  margin-top: 7px;
+}
+
+.Label {
+  color: var(--background_light);
+  font-size: 13px;
+  font-weight: 500;
+}

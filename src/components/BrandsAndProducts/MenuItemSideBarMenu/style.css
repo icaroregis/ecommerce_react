@@ -1,0 +1,26 @@
+.ProSideBar {
+  background-color: var(--background_light);
+}
+
+.MenuItemSideBar {
+  background-color: var(--background_screens);
+  margin-bottom: 0.6rem;
+  padding: 0.4rem;
+  border-bottom-right-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  color: var(--background_light);
+  text-align: center;
+  width: 14rem;
+}
+
+.MenuItemSideBar.activeClass {
+  background-color: #008f83;
+}
+
+.MenuItemSideBar.activeClassTwo {
+  background-color: #008f83;
+}
+
+.ContentSidebar {
+  display: flex;
+}

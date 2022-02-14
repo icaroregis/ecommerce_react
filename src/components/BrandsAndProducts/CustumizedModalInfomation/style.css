@@ -1,0 +1,31 @@
+.IconCloseModal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.DivIconCloseModal {
+  cursor: pointer;
+}
+
+.DivImageModal {
+  margin-right: 4rem;
+}
+
+.ImageModal {
+  width: 7rem;
+  height: 15rem;
+}
+
+.DivInformationsModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextInformationModal {
+  line-height: 1.5rem;
+}
+
+.IconBsxlg {
+  background-color: var(--background_light);
+}

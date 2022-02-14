@@ -1,0 +1,238 @@
+.ContainerModalMaster {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BoxModal {
+  width: 66rem;
+  height: 33rem;
+}
+
+.ContainerModalImages {
+  display: flex;
+}
+
+.ModalImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.CiserModal {
+  width: 4rem;
+  height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.ScrewModal {
+  height: 4rem;
+  width: 2rem;
+}
+
+.TitleModal {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  margin-top: 0.3rem;
+}
+
+.ImageCloseModal {
+  width: 3rem;
+  height: 3rem;
+}
+
+.ImageCloseModalMaster {
+  position: relative;
+  top: -33px;
+  cursor: pointer;
+}
+
+.ContainerTable {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.HeadRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2.9rem;
+  margin-bottom: 3px;
+}
+
+.HeadDataOne {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.HeadDataTwo {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.HeadDataThree {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.HeadDataFour {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.HeadDataSpecialid {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.BodyRow {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.BodyRow:hover {
+  background-color: #f8f8ff;
+}
+
+.BodyDataOne {
+  width: 6rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataTwo {
+  width: 8rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataThree {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataFour {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataFive {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataSix {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataEight {
+  width: 7.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  margin-right: 5px;
+  background-color: var(--grey9);
+  border-radius: 5px;
+}
+
+.BodyDataEleven {
+  width: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  background-color: var(--blue-pool);
+  border-radius: 5px;
+}
+
+.BodyDataEleven:hover {
+  cursor: pointer;
+}
+
+.MasterContainerAddCar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ButtonAddCar {
+  width: 17.5rem;
+  display: flex;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #49958b;
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+.TitleDinner {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--background_light);
+}
+
+.TaxesAndDuties {
+  margin-top: 2.1rem;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.BodyDataSeven {
+  display: flex;
+}
+
+.DivAdd {
+  flex: 1;
+  background-color: #49958b;
+  padding: 0.4rem 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.SubtractionIcon {
+  border-bottom: 1px solid black;
+  width: 0.5rem;
+}

@@ -1,0 +1,119 @@
+.ContainerUserRegistration {
+  max-width: 23rem;
+  width: 100%;
+  background-color: var(--background_screens);
+  color: var(--background_light);
+  border-radius: 15px;
+  margin-bottom: 33px;
+  margin-top: 33px;
+}
+
+.DivlogoRegistration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.ComponentHeaderRegistration {
+  display: block;
+  justify-content: center;
+  width: 245px;
+  align-items: center;
+  margin-bottom: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Spacing {
+  margin-bottom: 10px;
+}
+
+.SpacingTwo {
+  margin-bottom: 40px;
+}
+
+.SpacingInput {
+  margin-bottom: 25px;
+}
+
+.SpacingButton {
+  margin-bottom: 40px;
+}
+
+.SpacingButtonTwo {
+  margin-bottom: 40px;
+}
+
+.DivFormMasterRegistration {
+  display: flex;
+  justify-content: center;
+}
+
+.DivCheckedMaster {
+  display: flex;
+}
+
+.CheckedYes {
+  margin-right: 40px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.InputCheked {
+  width: 27px;
+  height: 27px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.DivChecked {
+  margin-right: 20px;
+  display: flex;
+}
+
+.TitleChecked {
+  color: var(--background_light);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.InputRadio {
+  width: 20px;
+  height: 20px;
+}
+
+.LabelYes {
+  font-weight: 600;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.DivStyleChecked {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+@media (max-width: 412px) {
+  .ContainerUserRegistration {
+    border-radius: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ContainerUserRegistration {
+    border-radius: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+  }
+}

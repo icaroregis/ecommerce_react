@@ -1,0 +1,374 @@
+.ContainerMasterHome {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--background_light);
+}
+
+.PresentationContainerHome {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey9);
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.ImageHome {
+  cursor: pointer;
+}
+
+.TitlePresentationBold {
+  color: var(--grey8);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.TitlePresentation {
+  color: var(--grey8);
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+.SearchFieldPresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.7rem;
+  border: none;
+  position: relative;
+}
+
+.InputPresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 3rem;
+  border-radius: 1.7rem;
+  border: none;
+  text-align: center;
+  color: var(--grey9);
+}
+
+.InputPresentation::placeholder {
+  color: var(--grey4);
+}
+
+.BorderInputPresentation {
+  width: 45rem;
+  border-bottom: 1px solid var(--grey9);
+  position: absolute;
+  top: 2.5rem;
+  bottom: 1rem;
+  height: 0.5px;
+}
+
+.ContainerBodyHome {
+  background-color: var(--background_light);
+}
+
+.SubContainerBodyHome {
+  color: var(--grey8);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.Carrosel {
+  margin-top: 20rem;
+}
+
+.DivCarousel {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.LogoCiser {
+  width: 8rem;
+  height: 8rem;
+}
+
+.LogoPartnerBrandsTwo {
+  width: 7rem;
+  height: 2rem;
+}
+
+.PartnerBrands {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6.5rem;
+}
+
+.UnbeatablePrices {
+  color: var(--grey8);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.SessionContactUs {
+  margin-top: 45px;
+  background-color: var(--green);
+  padding: 0 6.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 19rem;
+}
+
+.SubSessionContactUs {
+  display: flex;
+  align-items: center;
+}
+
+.NewsAndPromotions {
+  margin-right: 22rem;
+}
+
+.ReceiveNews {
+  display: block;
+}
+
+.LogoSessionContactUs {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 0.7rem;
+}
+
+.TextNewsletter {
+  color: var(--background_light);
+  margin-bottom: 1rem;
+}
+
+.TextNewsAndPromotions {
+  color: var(--background_light);
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+}
+
+.ButtonReceiveNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21.9rem;
+  color: var(--background_light);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 40px;
+  border: 0;
+  border-radius: 6px;
+  background-color: var(--background_screens);
+  cursor: pointer;
+  border-radius: 1.6rem;
+}
+
+.InputReceiveNews {
+  width: 20rem;
+  height: 35px;
+  display: block;
+  border-radius: 1.6rem;
+  padding-left: 1.5rem;
+  border: 2px solid var(--background_light);
+  margin-top: 7px;
+  margin-bottom: 1rem;
+  background-color: var(--green);
+  color: var(--background_light);
+}
+
+.InputReceiveNews::placeholder {
+  color: var(--background_light);
+}
+
+.DivFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey8);
+  height: 14rem;
+}
+
+.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right {
+  background-color: var(--grey9) !important;
+  border: none !important;
+}
+
+.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right:hover {
+  background-color: var(--green) !important;
+}
+
+.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-left {
+  background-color: var(--grey9) !important;
+}
+
+.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-left:hover {
+  background-color: var(--green) !important;
+}
+
+.jJKuoL {
+  background-color: var(--green) !important;
+}
+
+@media (max-width: 1024px) {
+  .InputPresentation {
+    width: 40rem;
+  }
+
+  .DivCarousel {
+    padding-left: 2.9rem;
+    padding-right: 2.9rem;
+  }
+
+  .TitlePresentation {
+    padding: 0 5rem;
+  }
+
+  .InputPresentation::placeholder {
+    font-size: 16px;
+  }
+
+  .BorderInputPresentation {
+    width: 35rem;
+  }
+
+  .SearchFieldPresentation {
+    width: 40rem;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+  }
+
+  .NewsAndPromotions {
+    margin-right: 2rem;
+  }
+
+  .SubSessionContactUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+}
+@media (max-width: 640px) {
+  .InputPresentation {
+    width: 20rem;
+  }
+
+  .InputPresentation::placeholder {
+    font-size: 11.5px;
+  }
+
+  .BorderInputPresentation {
+    width: 18rem;
+  }
+
+  .SearchFieldPresentation {
+    width: 20rem;
+    margin-top: 2rem;
+  }
+
+  .TitlePresentation {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .TitlePresentationBold {
+    margin-bottom: 2rem;
+  }
+
+  .PresentationContainerHome {
+    padding-top: 2rem;
+    height: 19rem;
+  }
+
+  .DivPartnerBrands {
+    width: 9.5rem;
+    height: 9.5rem;
+    margin-right: 0.8rem;
+  }
+
+  .PartnerBrands {
+    margin-bottom: 4rem;
+  }
+
+  .DivCarousel {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .SessionContactUs {
+    margin-top: 20px;
+    background-color: var(--green);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+  }
+
+  .SubSessionContactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .TextImageSession {
+    display: flex;
+    justify-content: center;
+  }
+
+  .DescriptionImage {
+    text-align: center;
+  }
+
+  .NewsAndPromotions {
+    margin-right: 0;
+  }
+
+  .TextNewsAndPromotions {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .InputReceiveNews {
+    width: 18rem;
+    height: 35px;
+  }
+
+  .StyleInputReceiveNews {
+    display: flex;
+    justify-content: center;
+  }
+
+  .DivButtonReceiveNews {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ButtonReceiveNews {
+    width: 20rem;
+    height: 40px;
+  }
+}
