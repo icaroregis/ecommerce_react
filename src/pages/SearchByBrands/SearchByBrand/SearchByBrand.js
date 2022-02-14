@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReusableHeader from '../../../components/ReusableHeader/ReusableHeader';
 import ReusableCard from '../../../components/ReusableCard/ReusableCard';
 import SearchInput from '../../../components/SearchInput/SearchInput';
 import Carrossel from '../../../components/Carrossel/Carrossel';
@@ -6,7 +7,6 @@ import Footer from '../../../components/Footer/Footer';
 import { useHistory } from 'react-router-dom';
 import api from '../../../services/api';
 import './style.css';
-import ReusableHeader from '../../../components/ReusableHeader/ReusableHeader';
 
 export default function SearchByBrand() {
   const [supplierBrand, setSuplierBrand] = useState('');

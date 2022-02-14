@@ -49,7 +49,6 @@ export default function CustomizedModal() {
       }
       setCarrinho({ ...carrinho, [type]: carrinho[type] + 1 });
       setTotal(total + Number(price));
-      console.log({ [type]: carrinho[type] + 1 });
     }
 
     if (operation === 'dec') {
@@ -66,7 +65,6 @@ export default function CustomizedModal() {
       setCarrinho({ ...carrinho, [type]: newValue });
       setTotal(total - Number(price));
     }
-    console.log(type, 'produto');
   }
 
   useEffect(() => {
@@ -162,13 +160,13 @@ export default function CustomizedModal() {
                       <div className="BodyDataFive">{row.preco}</div>
                       <div className="BodyDataSix">{'--'}</div>
                       <ProductQuantificationSelectors
-                        type={row.type}
-                        price={row.precoEmb}
+                        type={row.titulo}
+                        price={row.preco}
                         action={controleEstoque}
                         total={
-                          carrinho[row.type]
+                          carrinho[row.titulo]
                             ? convertToBRL.format(
-                                carrinho[row.type] * Number(row.precoEmb)
+                                carrinho[row.titulo] * row.preco
                               )
                             : 'R$ 0,00'
                         }
