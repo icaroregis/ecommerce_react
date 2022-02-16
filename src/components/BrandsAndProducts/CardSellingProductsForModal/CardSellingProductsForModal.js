@@ -28,9 +28,9 @@ export default function CardSellingProductsForModal() {
                 >
                   <div>
                     <img
+                      className="LogoProductIcon"
                       src="https://imagens.facilcatalogos.com.br/subcategoria-images/images20.jpg?20220125093926"
                       alt="..."
-                      className="LogoProductIcon"
                     />
                   </div>
 
@@ -46,7 +46,7 @@ export default function CardSellingProductsForModal() {
                 </div>
               );
             })
-          : 'Sem subcategorias para exibir'}
+          : 'Clique em um item do menu para exibir os produtos.'}
       </div>
 
       <section>

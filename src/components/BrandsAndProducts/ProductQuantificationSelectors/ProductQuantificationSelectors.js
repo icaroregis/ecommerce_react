@@ -24,8 +24,6 @@ export default function ProductQuantificationSelectors({
     }
   }
 
-  console.log(type, 'total de cada item');
-
   return (
     <>
       <div className="BodyDataSeven">

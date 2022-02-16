@@ -21,6 +21,7 @@ export default function CustomizedModal() {
     useAppContext();
   const CNPJ = localStorage.getItem('CNPJ');
   const token = localStorage.getItem('token');
+  const IdFornecedor = localStorage.getItem('supplierId');
   const idSubCategoriaSelecionada = localStorage.getItem(
     'idSubCategoriaSelecionada'
   );
@@ -32,12 +33,29 @@ export default function CustomizedModal() {
     currency: 'BRL',
   });
 
-  function OpenModalInformation() {
-    setOpenModalInfomation(true);
-  }
+  const formattedObject = {
+    clienteCnpj: CNPJ,
+    forncedorId: IdFornecedor,
+    produtos: produtos,
+  };
+
+  console.log(formattedObject, 'teste de objeto');
 
   function OpenModalCar() {
     setOpenModalCar(true);
+
+    api
+      .post(() => {})
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((response) => {
+        console.log(response.message);
+      });
+  }
+
+  function OpenModalInformation() {
+    setOpenModalInfomation(true);
   }
 
   function controleEstoque(type, operation, price) {
@@ -173,7 +191,7 @@ export default function CustomizedModal() {
                       />
                       <div
                         className="BodyDataEleven"
-                        onClick={OpenModalInformation}
+                        onClick={() => OpenModalInformation(row.titulo)}
                       >
                         <BsInfoLg />
                       </div>
