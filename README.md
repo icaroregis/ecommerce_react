@@ -1,6 +1,6 @@
 # Empresa Cliente - Front-end React
 
-Sistema front-end onde o cliente da Fobbi fará seus pedidos de produtos na plataforma
+Sistema front-end onde o cliente da "Empresa Cliente" fará seus pedidos de produtos na plataforma
 
 ## Começando
 
