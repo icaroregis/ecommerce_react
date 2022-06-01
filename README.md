@@ -1,4 +1,4 @@
-# Fobbi Cliente - Front-end React
+# Empresa Cliente - Front-end React
 
 Sistema front-end onde o cliente da Fobbi fará seus pedidos de produtos na plataforma
 
