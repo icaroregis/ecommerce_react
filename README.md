@@ -29,4 +29,4 @@ npm build
 - **StyledComponents**: Lib usada estilização dos componentes;
 - **Font Awesome**: Lib de fontes de ícones;
 - **Material UI**: Lib de componentes UI do Google;
-- **Redux**: Lib de gerenciamento de estado;
+- **API CONTEXT**: Lib de gerenciamento de estado;
